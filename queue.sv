@@ -10,6 +10,13 @@ module queue;
     foreach(queue0[i]) $display("queue0[%0d]=%0d",i,queue0[i]);
     $display("Size of queue1 is %0d",queue1.size());
     foreach(queue1[i]) $display("queue1[%0d]=%0s",i,queue1[i]);
+    queue0.push_back(5);
+    queue0.pop_front();
+    queue1.push_back("yellow");
+    queue1.push_front("pink");
+     foreach(queue0[i]) $display("queue0[%0d]=%0d",i,queue0[i]);
+     foreach(queue1[i]) $display("queue1[%0d]=%0s",i,queue1[i]);
+    
     
   end
 endmodule
