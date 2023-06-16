@@ -1,15 +1,15 @@
 module enum_method;
   typedef enum{red,blue,green.yellow,pink} colour;
-  colour c;
+  colour r;
   initial
     begin
-      c=c.first();
-      $display("%s",c.name);
-       c=c.next();
-      $display("%s",c.name);
-       c=c.last();
-      $display("%s",c.name);
-       c=c.prev();
-      $display("%s",c.name);
+      r=r.first();
+      $display("%s",r.name);
+       r=r.next();
+      $display("%s",r.name);
+       r=r.last();
+      $display("%s",r.name);
+       r=r.prev();
+      $display("%s",r.name);
     end
 endmodule
