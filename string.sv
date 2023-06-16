@@ -13,7 +13,6 @@ module str;
       $display("%s",C.toupper());
       $display("%s",B.compare(A));
       $display("%s",C.icompare(B));
-      $display("%s",C.substr());
     end
 endmodule
       
