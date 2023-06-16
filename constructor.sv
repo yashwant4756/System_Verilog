@@ -3,7 +3,7 @@ class packet_c;
 	bit [31:0] src, dst;
 function new(int src, int dst = 10);
 	this.src = src;
-	dst = dst;
+	this.dst = dst;
 endfunction
   
   function void display();
